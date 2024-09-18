@@ -280,4 +280,81 @@ Below is the algorithm I followed to create a basic calculator in C:
 \large\textbf{Screenshots showing pull request and the file changes made.}
 \vspace{0.3in}
 \newpage
+
+{\textbf{Date :} \today}
+\section{Srija Saha}
+
+\subsection{A simple calculator program in C}
+The Algorithm used to make the following calculator is : -
+\begin{enumerate}
+    \item \textbf{Start}
+    \item \textbf{Show Menu}:
+    \begin{quote}
+        Display options for operations (\texttt{+}, \texttt{-}, \texttt{*}, \texttt{/}).
+    \end{quote}
+    \item \textbf{Get Operator}:
+    \begin{quote}
+        Read the chosen operator from the user.
+    \end{quote}
+    \item \textbf{Get Numbers}:
+    \begin{quote}
+        Prompt the user to enter two numbers.
+    \end{quote}
+    \item \textbf{Perform Calculation}:
+    \begin{itemize}
+        \item \texttt{+}: Add the numbers.
+        \item \texttt{-}: Subtract the numbers.
+        \item \texttt{*}: Multiply the numbers.
+        \item \texttt{/}: Divide the numbers (handle division by zero).
+    \end{itemize}
+    \item \textbf{Show Result}:
+    \begin{quote}
+        Display the result of the operation.
+    \end{quote}
+    \item \textbf{End}
+\end{enumerate}
+
+\subsection{Output Workflow}
+
+\begin{enumerate}
+    \item \textbf{Show Menu}:
+    \begin{quote}
+        \texttt{Simple Calculator} \\
+        \texttt{Choose an operation:} \\
+        \texttt{+ for addition} \\
+        \texttt{- for subtraction} \\
+        \texttt{* for multiplication} \\
+        \texttt{/ for division} \\
+        \texttt{Enter your choice:}
+    \end{quote}
+    \item \textbf{User Input for Operator}:
+    \begin{quote}
+        Example: \texttt{+}
+    \end{quote}
+    \item \textbf{Prompt for Numbers}:
+    \begin{quote}
+        \texttt{Enter two numbers:}
+    \end{quote}
+    \begin{quote}
+        Example Input: \texttt{8 5}
+    \end{quote}
+    \item \textbf{Show Result}:
+    \begin{itemize}
+        \item For addition: \texttt{Result: 13.00}
+        \par\vspace{2em} \textbf{Other Cases} \par\vspace{1em}
+        \item For subtraction: \texttt{Result: 3.00}
+        \item For multiplication: \texttt{Result: 40.00}
+        \item For division (with non-zero divisor): \texttt{Result: 1.60}
+        \item For division (with zero divisor): \texttt{Error! Division by zero.}
+    \end{itemize}
+\end{enumerate}
+\par\vspace{5em}
+\large\textbf{Code shown in VS Code :}
+\par\vspace{2em}
+\includegraphics[width=0.8\textwidth]{srija.png}
+\par\vspace{2em}
+\includegraphics[width=0.8\textwidth]{srija1.png}
+\par\vspace{2em}
+\large\textbf{Screenshots showing code for the calculator}
+\vspace{0.3in}
 \end{document}
